@@ -1,0 +1,20 @@
+{
+  "name": "array-cycle",
+  "version": "0.1.0",
+  "description": "Simple wrapper utility to navigate and cycle an array",
+  "repository": "jeromedecoster/array-cycle",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "onchange {index,test}.js -- npm test",
+    "test": "tape test.js | tap-min"
+  },
+  "devDependencies": {
+    "onchange": "^2.0.0",
+    "tap-min": "^1.0.0",
+    "tape": "^4.2.2"
+  },
+  "license": "MIT"
+}
