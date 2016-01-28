@@ -7,6 +7,13 @@
   "files": [
     "index.js"
   ],
+  "keywords": [
+    "array",
+    "cycle",
+    "loop",
+    "utility",
+    "util"
+  ],
   "scripts": {
     "start": "onchange {index,test}.js -- npm test",
     "test": "tape test.js | tap-min"
